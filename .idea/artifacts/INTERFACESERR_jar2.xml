@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="INTERFACESERR:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/INTERFACESERR_jar2</output-path>
+    <root id="archive" name="INTERFACESERR.jar">
+      <element id="module-output" name="INTERFACESERR" />
+    </root>
+  </artifact>
+</component>

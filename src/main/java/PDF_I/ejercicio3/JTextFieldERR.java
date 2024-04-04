@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 public class JTextFieldERR extends JFrame implements ActionListener {
 
     private JButton button1;
+    private JButton button2;
     private JTextField textField1;
     private JLabel label1;
 
@@ -18,10 +19,11 @@ public class JTextFieldERR extends JFrame implements ActionListener {
         textField1 = new JTextField();
         textField1.setBounds(120, 80, 100, 30);
         add(textField1);
-        button1 = new JButton("Aceptar");
+        button1 = new JButton("Sumar");
         button1.setBounds(10, 80, 100, 30);
         add(button1);
         button1.addActionListener(this);
+
 
     }
 
